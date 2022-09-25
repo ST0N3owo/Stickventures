@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Micro Six';
+    src: url('Micro-Six.woff2') format('woff2'),
+        url('Micro-Six.woff') format('woff'),
+        url('Micro-Six.tff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('PressStart2P.woff2') format('woff2'),
+        url('PressStart2P.woff') format('woff'),
+        url('PressStart2P.tff') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+html{
+    background-repeat: initial;
+    background: linear-gradient(rgb(255, 255, 255), rgb(190, 190, 190))
+}
+
+#Tittle {
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Micro Six';
+    font-style: normal;
+    font-size: 60px;
+    text-align:center;
+    color:rgb(0, 0, 0);
+  }
+
+  #Subtittle{
+    justify-content: center;
+    padding: 1px;
+    font-family: 'Micro Six';
+    font-style: normal;
+    font-size: 20px;
+    text-align:center;
+    color:rgb(0, 0, 0);
+  }
+
+img{
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    border: 7px solid rgb(163, 163, 163);
+    border-start-end-radius: 20px;
+    background-color:rgba(136, 247, 255, 0.089);
+    width:400px; /* you can use % */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ }
+
+ video{
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    border: 7px solid rgb(163, 163, 163);
+    border-start-end-radius: 20px;
+    background-color:rgba(136, 247, 255, 0.089);
+    width:400px; /* you can use % */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+ }
+
+ #texto {
+    padding-inline-start: 200px;
+    padding-inline-end: 200px;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-size: 12px;
+    text-align:left;
+    color:rgb(59, 59, 59);
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    border: 7px solid rgb(163, 163, 163);
+    background-size: 32px;
+    background-image: url('/image/bg.png');
+    width: 200px; /* you can use % */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+
+ }
+
+ #next{
+    position: relative;
+    justify-content: center;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 50px;
+    width:400px; /* you can use % */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+#direitos {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-size: 18px;
+    font-size: 10px;
+    margin-top: 50px;
+}
