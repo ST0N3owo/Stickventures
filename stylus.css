@@ -88,7 +88,7 @@ img{
     padding: 20px;
     border: 7px solid rgb(163, 163, 163);
     background-size: 32px;
-    background-image: url('bg.png');
+    background-color: white;
     width: 200px; /* you can use % */
     height: auto;
     display: block;
